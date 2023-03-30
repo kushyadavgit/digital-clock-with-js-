@@ -1,0 +1,244 @@
+* {
+  margin: 0%;
+  padding: 0px;
+  /* box-sizing: border-box; */
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: #3d087b;
+}
+.con1 {
+  display: flex;
+  flex-direction: column;
+  /* border: 5px solid black; */
+  width: 600px;
+  height: 800px;
+}
+.img {
+  margin-top: 25px;
+  margin-bottom: 45px;
+  background-repeat: no-repeat;
+  /* border: 1px solid black; */
+  width: 210px;
+  margin-left: 15px;
+}
+.celen {
+  border-radius: 10px;
+  background-color: white;
+  width: 560px;
+  height: 333px;
+  /* border: 5px solid rgb(10, 9, 16); */
+  line-height: 50px;
+  margin: 10px;
+  color: #3d087b;
+}
+
+.d1 {
+  word-spacing: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+  align-items: center;
+  line-height: 72px;
+}
+.select1 {
+  width: 52%;
+  height: 40px;
+  margin-left: 69px;
+  color: #3d087b;
+}
+.select {
+  width: 52%;
+  height: 40px;
+  margin-left: 100px;
+  color: #3d087b;
+}
+/* .line {
+  border-left: 2px solid grey;
+  height: 31px;
+  margin-left: 61px;
+} */
+.gm {
+  text-align: center;
+  /* border: 1px solid black; */
+  width: 532px;
+  height: 61px;
+  margin: 0px;
+  margin-left: 15px;
+  padding-left: 20px;
+  background-color: #8a11bf;
+  border-radius: 10px;
+  padding-top: 20px;
+  color: white;
+}
+.con1bot {
+  display: flex;
+}
+.set {
+  margin: 10px;
+  text-align: center;
+  border: 2px solid white;
+  width: 336px;
+  height: 50px;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to right,
+    #6e54ec,
+    #cb52f8,
+    #fc5eff,
+    #f1a7c5
+  );
+  color: white;
+  font-size: 32px;
+}
+.msg {
+  margin: 10px;
+  border: 2px solid white;
+  width: 257px;
+  height: 144px;
+  border-radius: 10px;
+  font-size: 19px;
+  padding: 10px;
+  line-height: 34px;
+  color: #8a11bf;
+  background-color: #f1a7c5;
+}
+.con2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* border: 5px solid blue; */
+  width: 600px;
+  height: 800px;
+}
+.box1 {
+  margin-top: 50px;
+  display: flex;
+  /* border: 1px solid blue; */
+  width: 540px;
+  height: 125px;
+  background-color: white;
+  color: white;
+  align-items: center;
+  border-radius: 10px;
+  position: relative;
+  top: 0px;
+}
+.t {
+  width: 80px;
+  color: #9140b5;
+  background-color: white;
+  height: 75px;
+  text-align: center;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+.hr {
+  box-sizing: border-box;
+  padding-top: 25px;
+  background-image: url(./timeline.svg);
+  color: #9140b5;
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 30px;
+  font-size: 28px;
+  margin: 5px;
+}
+.am {
+  background-image: url(./AM_svg.svg);
+  background-repeat: no-repeat;
+  padding-top: 10px;
+  color: aliceblue;
+}
+#am {
+  color: #9140b5;
+  padding-top: 26px;
+  height: 80px;
+}
+.b {
+  width: 450px;
+  height: 25px;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 10px;
+  margin-left: 18px;
+  margin-top: -36px;
+}
+.bc {
+  width: 405px;
+  height: 40px;
+  background-color: white;
+  opacity: 0.3;
+  border-radius: 10px;
+  margin-left: 16px;
+  margin-top: -66px;
+}
+.box4 {
+  position: relative;
+  /* border: 1px solid black; */
+  background-color: white;
+  color: #8e53f0;
+  width: 529px;
+  height: 85px;
+  text-align: center;
+  font-size: 35px;
+  font-family: fantasy;
+  padding-top: 40px;
+  border-radius: 10px;
+  left: 5px;
+  margin: 10px;
+  bottom: 40px;
+  top: 0px;
+}
+.box5 {
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  width: 540px;
+  background-image: url(./mrng.png);
+  height: 350px;
+}
+
+@media (min-width: 340px) and (max-width: 545px) {
+  .main {
+    width: 170%;
+  }
+  .box1 {
+    top: -730px;
+  }
+  .msg {
+    position: relative;
+    top: 250px;
+  }
+  .set {
+    position: relative;
+    top: 250px;
+  }
+  .gm {
+    position: relative;
+    top: 240px;
+  }
+  .celen {
+    position: relative;
+    top: 210px;
+  }
+  .b {
+    position: absolute;
+    top: 275px;
+  }
+  .bc {
+    position: absolute;
+    top: 311px;
+  }
+  .box5 {
+    position: relative;
+    bottom: 34px;
+  }
+}
