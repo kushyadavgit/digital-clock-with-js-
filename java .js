@@ -19,7 +19,7 @@ function clock() {
   if (hours > 12) {
     tmzone.innerText = "PM";
   } else {
-    tmzome.innerText = "AM";
+    tmzone.innerText = "AM";
   }
   if (hours > 12) {
     hours -= 12;
